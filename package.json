@@ -1,12 +1,14 @@
 {
-  "name": "demo-cicd",
-  "version": "1.0.0",
-  "description": "",
-  "main": "test.js",
-  "scripts": {
-    "test": "node test.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "github-actions-demo",
+    "version": "1.0.0",
+    "description": "GitHub Actions DevOps practice project",
+    "main": "server.js",
+    "scripts": {
+            "start": "node server.js",
+            "test": "node test.js",
+            "build": "echo Build completed successfully"
+    },
+    "dependencies": {
+        "express": "^5.1.0"
+    }
 }
